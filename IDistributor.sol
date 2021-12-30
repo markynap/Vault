@@ -6,5 +6,4 @@ interface IDistributor {
     function process(uint256 gas) external;
     function getShareholders() external view returns (address[] memory);
     function getShareForHolder(address holder) external view returns(uint256);
-    function getRewardTokenForHolder(address holder) external view returns(address);
 }
